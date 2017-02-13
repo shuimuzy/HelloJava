@@ -1,4 +1,4 @@
-package com.samples;
+package com.samples.io;
 /**
  * Java IO write file
  */
