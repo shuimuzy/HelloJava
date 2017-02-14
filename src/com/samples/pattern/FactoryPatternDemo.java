@@ -1,6 +1,13 @@
 package com.samples.pattern;
 
-//1、定义一个接口自行车，Bike。
+/**
+ * 
+ * @author shuimu.tian
+ * 
+ * 利用工厂模式创建MBike和RBike
+ *
+ */
+
 interface Bike {
 	
 	void ride();
@@ -8,6 +15,7 @@ interface Bike {
 }
 
 //2、定义实现类山地自行车，MBike
+
 
 class MBike implements Bike{ 
     @Override 
